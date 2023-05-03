@@ -8,9 +8,9 @@ import g3 from './assets/part-Slice 3.svg';
 import t1 from './assets/tree-1.svg';	
 import t2 from './assets/tree-2.svg';
 import t3 from './assets/tree-3.svg';
-import s1 from './assets/tree-shadow-1.svg';
-import s2 from './assets/tree-shadow-2.svg';
-import s3 from './assets/tree-shadow-3.svg';
+import s1 from './assets/tree-1-shadow.svg';
+import s2 from './assets/tree-2-shadow.svg';
+import s3 from './assets/tree-3-shadow.svg';
 
 let algorithm = 'grid';
 
