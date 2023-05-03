@@ -1,16 +1,22 @@
 {
-  "name": "web",
+  "name": "infinite-forest",
   "version": "1.0.0",
-  "description": "",
-  "private": true,
+  "description": "JS wallpaper that creates an infinite forest of trees, in a pixel art style",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode=production",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
-  "keywords": [],
-  "author": "",
+  "repository": {
+    "url": "git+https://github.com/Luckbox314/trees.git"
+  },
+  "keywords": ["trees", "forest", "wallpaper", "background", "pixel art", "infinite"],
+  "author": "luckbox314",
   "license": "ISC",
   "devDependencies": {
     "css-loader": "^6.7.1",
+    "gh-pages": "^5.0.0",
     "style-loader": "^3.3.1",
     "webpack": "^5.72.1",
     "webpack-cli": "^4.9.2"

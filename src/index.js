@@ -22,23 +22,22 @@ var lastUpate = Date.now();
 let dialingTimer;  
 let doneDialingInterval = 300; 
 
-window.wallpaperPropertyListener = {
-    applyUserProperties: function(properties) {
-        if (properties.randomalgorithm) {
-            algorithm = properties.randomalgorithm.value;
-            drawStuff();
-        }
+
+// Wall paper engine properties
+// window.wallpaperPropertyListener = {
+//     applyUserProperties: function(properties) {
+//         if (properties.randomalgorithm) {
+//             algorithm = properties.randomalgorithm.value;
+//             drawStuff();
+//         }
         
-        if (properties.density) {
-            treeDensity = properties.density.value;
-            clearTimeout(dialingTimer);
-            dialingTimer = setTimeout(drawStuff, doneDialingInterval);
-        }
-    },
-};
-
-
-
+//         if (properties.density) {
+//             treeDensity = properties.density.value;
+//             clearTimeout(dialingTimer);
+//             dialingTimer = setTimeout(drawStuff, doneDialingInterval);
+//         }
+//     },
+// };
 
 
 var img_tree_1 = document.createElement('img');	
